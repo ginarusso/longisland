@@ -12,6 +12,7 @@ body {
     margin: 0;
     text-align: center;
     font-family: 'Spinnaker', sans-serif;
+    background: #cdedf6;
 }
 
 #wrapper1 {
@@ -20,6 +21,7 @@ body {
     width: 900px;
     margin: 0 auto;
     padding: 10px;
+    background: white;
 }
 
 #wrapper2 {
@@ -27,6 +29,7 @@ body {
     border: 1px solid #e7ecef;
     width: 900px;
     margin: 0px auto;
+    background: white;
     /* padding: 10px; */
 }
 
@@ -79,6 +82,10 @@ p {
     background: #e7ecef;
 }
 
+section {
+    background: white;
+    
+}
 .card {
     /* width: 400px; */
     margin: 20px 150px;
