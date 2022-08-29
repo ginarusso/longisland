@@ -1,48 +1,42 @@
-/**
-Palette: https://scrimba.com/links/hometown-palette
-RED: #E63946
-LIGHT: #F1FAEE
-AQUA: #A8DADC
-LIGHT BLUE: #457B9D
-DARK BLUE: #1D3557
-
-*/
-
 body {
-    margin: 0;
+    margin: -38px auto;
     text-align: center;
     font-family: 'Spinnaker', sans-serif;
     background: #cdedf6;
 }
 
+.background-video {
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: -1;
+  opacity: 0.5;
+}
+
 #wrapper1 {
-    /* border-radius: 5%; */
-    border: 1px solid #e7ecef;
-    width: 900px;
+    width: 100%;
     margin: 0 auto;
-    padding: 10px;
     background: white;
 }
 
 #wrapper2 {
-    /* border-radius: 5%; */
-    border: 1px solid #e7ecef;
-    width: 900px;
+    width: 60%;
     margin: 0px auto;
-    background: white;
-    /* padding: 10px; */
 }
 
 #hero {
-    background-image: url("images/long-island.jpeg");
-    /* margin: 5px; */
-    height: 500px;
+    /*background-image: url("images/long-island.jpeg");*/
+    height: 475px;
     display: flex;
     flex-direction: column;
     align-items: center;
     background-size: cover;
-    /* border-radius: 5%;
-    border: 1px solid lightslategray; */
+    color: white;
 }
 
 #round {
@@ -53,42 +47,28 @@ body {
     height: 150px;
 }
 
-
-
-/* img {
-    width: 100px;
-} */
-
 h1, h2 {
-    background: white;
-    padding: 5px 10px;
-    margin: 100px;
-    border-radius: 10px;
-    border: 2px solid #274c77;
     font-family: 'Sail', cursive;
+    color: white;
+}
+
+h2 {
+    margin-bottom: 200px;
 }
 
 h3,
 p {
-    margin: 0;
-    padding: 20px;
-}
-
-.bold {
-   font-weight: bold; 
+    color: black;
+    padding: 0 20px;
 }
 
 .features {
     background: #e7ecef;
 }
 
-section {
-    background: white;
-    
-}
 .card {
-    /* width: 400px; */
-    margin: 20px 150px;
+    width: 744px;
+   
     padding: 20px;
     display: flex;
     justify-content: space-around;
