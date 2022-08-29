@@ -67,9 +67,8 @@ p {
 }
 
 .card {
-    width: 744px;
-   
-    padding: 20px;
+    width: 100%;
+    padding: 20px 0;
     display: flex;
     justify-content: space-around;
     text-align: center;
@@ -97,6 +96,7 @@ p {
 
 .avatar {
     width: 150px;
+    margin-left: 10px;
     border-radius: 50px;
     border: 6px solid #274c77;
 }
